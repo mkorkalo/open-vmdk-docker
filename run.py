@@ -11,7 +11,9 @@ DOCKER_VMDK_IMAGE_DIR = "/out/vmdk_image_dir"
 
 parser = argparse.ArgumentParser(description="Process some integers.")
 parser.add_argument("--ova_name", "-n", type=str, default="my-vm")
-parser.add_argument("--ovf_template", "-t", type=str, default="./template-hw14-bios.ovf")
+parser.add_argument(
+    "--ovf_template", "-t", type=str, default="./template-hw14-bios.ovf"
+)
 parser.add_argument("--ova_outputdir", "-o", type=str, default=".")
 parser.add_argument("--vmdk_image", "-i", nargs="+", type=str, required=True)
 args = parser.parse_args()

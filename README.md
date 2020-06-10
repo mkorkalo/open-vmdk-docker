@@ -15,7 +15,6 @@ This dockerized version allows you to use vmware's utility on any host that can 
 
 ## Example
 
-* Clone the repository and cd to it
 * ./build.sh
 * ./run.py -n my-virtual-machine -t ./template-hw14-bios.ovf -o /tmp -i /tmp/testsensor-disk1.vmdk
 * You should have /tmp/my-virtual-machine.ova once the tool completes.
