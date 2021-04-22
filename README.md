@@ -12,6 +12,7 @@ This dockerized version allows you to use vmware's utility on any host that can 
 * Shell
 * A VMDK image
 * An OVF template (you can use the included one, if you like)
+* qemu-img (optional, if vmdk conversion is required)
 
 ## Example
 
